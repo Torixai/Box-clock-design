@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>test</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Box clock style</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="lity/lity.css" />
+    <script src="lity/jquery.js"></script>
+    <script src="lity/lity.js"></script>
   </head>
   <body>
-    <script type="text/javascript" src="./bundle.js"></script>
-    </body>
+    <nav id="navtitle">
+      <div class="navtext about">ABOUT</div>
+      <div class="navtext works">WORKS</div>
+      <div class="navtext contact">CONTACT</div>
+      <div class="navtext top">RESET</div>
+    </nav>
+
+    <div id="content-box">
+      <div id="about-content">
+        <h1>櫻井 樹里</h1>
+        <h4>Sakurai Kisato</h4>
+        <p>WEBエンジニア。HTML, CSS, jQuery。</p>
+      </div>
+
+      <div id="works-content">
+        <div id="illusts">
+          <div class="illust-thumb">
+            <a
+              href=""
+              data-lity
+              data-lity-target="https://papapaparrot.web.fc2.com/about/images/joshi_l_s.png"
+              ><img
+                src="https://papapaparrot.web.fc2.com/about/images/joshis_s.png"
+            /></a>
+          </div>
+          <div class="illust-thumb">
+            <a
+              href=""
+              data-lity
+              data-lity-target="https://papapaparrot.web.fc2.com/images/joshia_s.png"
+              ><img src="https://papapaparrot.web.fc2.com/images/joshia_sa.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact-content">
+        <p>
+          kisato.sakurai@gmail.com<br />
+          <a href="https://www.wantedly.com/users/48360899">Wantedly</a>
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
