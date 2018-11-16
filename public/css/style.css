@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Julius+Sans+One|");
+
+html {
+  background: #e9ece9;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 1200px;
+  height: 900px;
+  margin: 0 auto 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+#navtitle {
+  position: relative;
+}
+
+.navtext {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  color: #2c3f08;
+}
+
+.navtext:hover {
+  transition: all 0.2s ease;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#about {
+  position: absolute;
+  top: 128px;
+  left: 200px;
+  margin-bottom: 0px;
+}
+
+#works {
+  position: absolute;
+  top: 260px;
+  right: 66px;
+  transform: rotate(90deg);
+}
+
+#contact {
+  position: absolute;
+  top: 591px;
+  left: 36px;
+  transform: rotate(-90deg);
+}
+
+#top {
+  position: absolute;
+  top: 745px;
+  right: 192px;
+}
+
+#content-box {
+  position: absolute;
+  border: solid 1px #2c3f08;
+  width: 800px;
+  height: 494px;
+  top: 203px;
+  left: 200px;
+}
+
+#default-content {
+  font-family: "Libre Baskerville", serif;
+  width: 800px;
+  height: 494px;
+  background-image: url("../imgs/medhicbk.png");
+  overflow: hidden;
+}
+
+#default-content h3 {
+  color: #f0ff17;
+  font-size: 160px;
+  text-align: left;
+  padding-left: 450px;
+  padding-top: 100px;
+  cursor: default;
+}
+
+#about-content {
+  display: none;
+  width: 750px;
+  height: 444px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+#works-content {
+  visibility: hidden;
+}
+
+#contact-content {
+  display: none;
+}
