@@ -195,13 +195,13 @@ a:hover {
 
 #contact-content {
   display: none;
-  font-size: 30px;
+  font-size: 22px;
   letter-spacing: 0.1em;
   line-height: 2.1em;
   background: none;
 }
 
 #contact-content p {
-  padding-top: 40px;
+  padding-top: 60px;
   font-family: "Libre Baskerville", serif;
 }
