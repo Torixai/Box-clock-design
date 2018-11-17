@@ -4,7 +4,7 @@ $(document).ready(() => {
       .children()
       .fadeOut(200);
     setTimeout(() => {
-      $("#about-content").fadeIn(300);
+      $("#about-content").fadeIn(500);
     }, 200);
   });
 
@@ -13,7 +13,7 @@ $(document).ready(() => {
       .children()
       .fadeOut(200);
     setTimeout(() => {
-      $("#works-content").fadeIn(300);
+      $("#works-content").fadeIn(500);
     }, 200);
   });
 
@@ -22,7 +22,7 @@ $(document).ready(() => {
       .children()
       .fadeOut(200);
     setTimeout(() => {
-      $("#contact-content").fadeIn(300);
+      $("#contact-content").fadeIn(500);
     }, 200);
   });
 
@@ -31,7 +31,7 @@ $(document).ready(() => {
       .children()
       .fadeOut(200);
     setTimeout(() => {
-      $("#default-content").fadeIn(300);
+      $("#default-content").fadeIn(500);
     }, 200);
   });
 });

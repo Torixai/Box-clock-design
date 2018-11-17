@@ -27,7 +27,6 @@ a:hover {
 }
 
 #navtitle {
-  position: relative;
 }
 
 .navtext {
@@ -46,29 +45,36 @@ a:hover {
 
 #about {
   position: absolute;
-  top: 128px;
-  left: 200px;
-  margin-bottom: 0px;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -311px;
 }
 
 #works {
   position: absolute;
-  top: 260px;
-  right: 66px;
+  top: 50%;
+  left: 50%;
+  margin-left: 376px;
+  margin-top: -191px;
   transform: rotate(90deg);
 }
 
 #contact {
   position: absolute;
-  top: 591px;
-  left: 36px;
+  top: 50%;
+  left: 50%;
+  margin-left: -544px;
+  margin-top: 139px;
   transform: rotate(-90deg);
 }
 
 #top {
   position: absolute;
-  top: 745px;
-  right: 192px;
+  top: 50%;
+  left: 50%;
+  margin-left: 291px;
+  margin-top: 279px;
 }
 
 #content-box {
@@ -101,8 +107,7 @@ a:hover {
   text-align: left;
   width: 720px;
   height: 414px;
-  margin-top: 40px;
-  margin-left: 40px;
+  padding: 40px;
 }
 
 #about-content {
@@ -130,7 +135,7 @@ a:hover {
   margin-top: 30px;
   font-size: 16px;
   font-weight: 300;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.13em;
   line-height: 1.8em;
   text-align: justify;
   text-justify: inter-ideograph;
@@ -146,6 +151,7 @@ a:hover {
   margin-top: 10px;
   margin-left: -5px;
   line-height: 2em;
+  letter-spacing: 0.13em;
 }
 
 .skills-set span {
@@ -158,14 +164,44 @@ a:hover {
   display: none;
 }
 
+#works-content h3 {
+  color: #353535;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.13em;
+}
+
+.gallery {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.gallery a {
+  width: 90px;
+  height: 90px;
+  background: #ccc;
+  overflow: hidden;
+  margin-left: 15px;
+}
+
+.gallery a:first-child {
+  margin-left: 0px;
+}
+
+.illusts {
+  margin-bottom: 40px;
+}
+
 #contact-content {
   display: none;
-  margin-top: 80px;
   font-size: 30px;
   letter-spacing: 0.1em;
   line-height: 2.1em;
+  background: none;
 }
 
-#contact-content span {
+#contact-content p {
+  padding-top: 40px;
   font-family: "Libre Baskerville", serif;
 }
