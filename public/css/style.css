@@ -116,10 +116,11 @@ a:hover {
 }
 
 #about-content h1 {
-  font-family: "Noto Serif JP", sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 65px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   font-weight: 500;
+  margin-bottom: 40px;
 }
 
 #about-content h2 {
@@ -132,7 +133,7 @@ a:hover {
 
 .about-paragraph {
   color: #353535;
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.13em;
