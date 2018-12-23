@@ -90,16 +90,16 @@ a:hover {
   font-family: "Libre Baskerville", serif;
   width: 800px;
   height: 494px;
-  background-image: url("../imgs/twitter-headesss.png");
+  background-image: url("../imgs/medhicbk.png");
   overflow: hidden;
 }
 
 #default-content h3 {
   color: #f0ff17;
-  font-size: 150px;
+  font-size: 160px;
   text-align: left;
-  padding-left: 0px;
-  padding-top: 170px;
+  padding-left: 450px;
+  padding-top: 100px;
   cursor: default;
 }
 
@@ -116,11 +116,10 @@ a:hover {
 }
 
 #about-content h1 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Noto Serif JP", sans-serif;
   font-size: 65px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   font-weight: 500;
-  margin-bottom: 40px;
 }
 
 #about-content h2 {
@@ -203,7 +202,7 @@ a:hover {
 }
 
 #contact-content {
-  margin-top: 139px;
+  margin-top: 40px;
 }
 
 #contact-content p {
