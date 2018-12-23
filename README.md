@@ -1,9 +1,4 @@
 
-## set up
-```
-$ yarn
-$ yarn watch
-```
+## Box-clock-design
+転がすタイプのちっちゃい時計（イケアとかで売ってる）ネタで作った。
 
-### Box-clock-design
-イケアとかで売ってる転がすタイプのちっちゃい時計
