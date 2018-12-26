@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(function() {
   $("#about").on("click", () => {
     $("#content-box")
       .children()
